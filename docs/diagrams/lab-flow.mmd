@@ -1,0 +1,6 @@
+flowchart LR
+A[Windows VM with Sysmon] --> B[SIEM]
+C[Linux VM] --> B
+D[Network Sensor] --> B
+B --> E[Detections]
+E --> F[Lab Notes]
