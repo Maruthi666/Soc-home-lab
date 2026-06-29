@@ -63,6 +63,3 @@ This repository is for defensive, authorized, lab-only use. Do not test on syste
 - Add a threat-hunting notebook.
 - Add cloud logging exercises.
 
-## License
-
-MIT
