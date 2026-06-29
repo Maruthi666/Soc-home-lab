@@ -1,0 +1,8 @@
+<Sysmon schemaversion="4.50">
+  <EventFiltering>
+    <ProcessCreate onmatch="include"/>
+    <NetworkConnect onmatch="include"/>
+    <FileCreate onmatch="include"/>
+    <RegistryEvent onmatch="include"/>
+  </EventFiltering>
+</Sysmon>
