@@ -1,7 +1,0 @@
-filebeat.inputs:
-  - type: filestream
-    paths:
-      - /var/log/syslog
-
-output.console:
-  pretty: true
